@@ -1,0 +1,18 @@
+{
+  "name": "axe-testcafe-example",
+  "version": "0.1.0",
+  "description": "Example to run TestCafe e2e test with axe-testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome:headless tests/index.spec.js"
+  },
+  "author": "vanhoofmaarten",
+  "license": "MIT",
+  "devDependencies": {
+    "axe-core": "^3.5.3",
+    "axe-testcafe": "^3.0.0",
+    "chalk": "^4.0.0",
+    "testcafe": "^1.8.4"
+  },
+  "dependencies": {}
+}
